@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+         <title>Ekositem Terumbu Karang</title>
+         <link rel="stylesheet" href="style.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<body>
+        <section class="karang">
+                <nav>
+                        <a href="index.html"><img src="images/logo4.png"></a>
+                        <div class="nav-links" id="nav">
+                                <i class="fas fa-times" onclick="hidemenu()"></i>
+                                <ul>
+                                        <li><a href="index.html">BERANDA</a></li>
+                                        <li><a href="materi.html">MATERI</a></li>
+                                        <li><a href="about.html">TENTANG</a></li>
+                                </ul>
+                        </div>
+                        <i class="fas fa-bars" onclick="showmenu()"></i>
+                </nav>
+        
+        <div class="text-box">
+                <h1>Ekositem Terumbu Karang</h1>
+                <p>Ekosistem ini ada di laut dangkal yang jernih sehingga cahaya matahari dapat masuk ke dalamnya. 
+                <br>Organisme yang hidup di sini adalah bintang laut, ganggang, hewan-hewan spons, berbagai jenis ikan, mollusca, dan terumbu karang.</p>
+                <br>
+                <video controls>
+                        <source src="video/KARANG.mp4" type="video/mp4" allow="autoplay" allowfullscreen>
+                </video>
+                
+                        
+        </div>
+
+
+        </section>
+
+<!--Pelajaran-->
+<section class="course">
+        <h1>Pelajari Ekositem Lainnya</h1>
+        <p>Mari belajar tentang ekositem lainnya yang ada di laut.</p>
+        <div class="row" id="kursus">
+                <div class="course-col">
+                        <h3>Lautan</h3>
+                        <p>Habitat laut dapat dibedakan berdasarkan kedalamannya dan wilayah 
+                        permukaannya secara horizontal</p>
+                        <a href="laut.html" class="tombollaut">Lebih Lengkap</a>
+                </div>
+                <div class="course-col">
+                        <h3>Pantai Pasir</h3>
+                        <p>Ekosistem ini memiliki hamparan pasir yang luas dan berada di pesisir pantai</p>
+                        <a href="pantai.html" class="tombolpantai">Lebih Lengkap</a>
+                </div>
+                <div class="course-col">
+                        <h3>Terumbu Karang</h3>
+                        <p>Ekosistem ini ada di laut dangkal yang jernih sehingga cahaya 
+                        matahari dapat masuk ke dalamnya</p>
+                        <a href="karang.html" class="tombolkarang">Lebih Lengkap</a>
+                </div>
+        </div>
+       
+</section>
+<!--keterangan-->
+<section class="footer">
+<h4>Hubung Kami</h4>
+<div class="icons">
+        <i class="fab fab fa-facebook"></i>
+        <i class="fab fab fa-twitter"></i>
+        <i class="fab fab fa-instagram"></i>
+        <i class="fab fa-whatsapp"></i>
+</div>
+<p>Kelompok 14 - Universitas Siber Asia <i class="fas far fa-heart"></i></p>
+</section>
+
+<!-----JavaScript untuk tombol menu----->
+<script>
+        var nav = document.getElementById("nav");
+
+        function showmenu(){
+                nav.style.right = "0";
+        }
+        function hidemenu(){
+                nav.style.right = "-200px";
+        }
+</script>
+
+</body>
+</html>

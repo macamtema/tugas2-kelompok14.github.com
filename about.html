@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+         <title>Tentang Ekositem Laut</title>
+         <link rel="stylesheet" href="style.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<body>
+        <section class="sub-header">
+                <nav>
+                        <a href="index.html"><img src="images/logo4.png"></a>
+                        <div class="nav-links" id="nav">
+                                <i class="fas fa-times" onclick="hidemenu()"></i>
+                                <ul>
+                                        <li><a href="index.html">BERANDA</a></li>
+                                        <li><a href="materi.html">MATERI</a></li>
+                                        <li><a href="about.html">TENTANG</a></li>
+                                </ul>
+                        </div>
+                        <i class="fas fa-bars" onclick="showmenu()"></i>
+                </nav>
+        
+                
+             
+               
+        
+
+
+        </section>
+
+
+<!--keterangan-->
+<section class="footer">
+        <h4>Tentang Kami</h4>
+<P>Halaman ini dubuat untuk keperluan Tugas 2 Pemograman Web 1</P>
+<p>Materi yang dimuat dalam halaman ini tidak bersumber dari madia terpercaya. <br>kesalahan informasi dapat terjadi</p>
+<div class="icons">
+        <i class="fab fab fa-facebook"></i>
+        <i class="fab fab fa-twitter"></i>
+        <i class="fab fab fa-instagram"></i>
+        <i class="fab fa-whatsapp"></i>
+</div>
+<p>Dibuat Oleh Kelompok 14 <i class="fas far fa-heart"></i><br>Tema Anggara<br>Gilang Indrawan<br>Danang Susilo </p>
+
+</section>
+
+<!-----JavaScript untuk tombol menu----->
+<script>
+        var nav = document.getElementById("nav");
+
+        function showmenu(){
+                nav.style.right = "0";
+        }
+        function hidemenu(){
+                nav.style.right = "-200px";
+        }
+</script>
+
+</body>
+</html>
